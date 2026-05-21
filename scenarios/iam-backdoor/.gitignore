@@ -1,0 +1,15 @@
+# AWS credentials
+.aws/
+credentials
+*.csv
+
+# Stratus state
+.stratus-red-team/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
