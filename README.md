@@ -53,7 +53,7 @@ Confirm the Account ID matches your lab account before proceeding.
 |---|---|---|---|
 | 01 | [IAM Backdoor User](scenarios/iam-backdoor/walkthrough.md) | T1136.003 — Create Cloud Account | ✅ Complete |
 | 02 | [CloudTrail Disable](scenarios/cloudtrail-stop/walkthrough.md) | T1562.008 — Disable Cloud Logs | ✅ Complete |
-| 03 | Lambda Code Overwrite | T1496 — Resource Hijacking | 🔜 Planned |
+| 03 | [Lambda Code Overwrite](scenarios/lambda-overwrite/walkthrough.md) | T1565.001 — Stored Data Manipulation | ✅ Complete |
 | 04 | S3 Bucket Policy Backdoor | T1530 — Data from Cloud Storage | 🔜 Planned |
 | 05 | Secrets Manager Enumeration | T1552.001 — Credentials in Files | 🔜 Planned |
 
