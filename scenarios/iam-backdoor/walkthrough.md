@@ -87,7 +87,7 @@ aws cloudtrail lookup-events `
     "AccessKeyMetadata": [
         {
             "UserName": "stratus-red-team-backdoor-u-user",
-            "AccessKeyId": "AKIASS2WC7DXODCGG3FT",
+            "AccessKeyId": "AKIA[REDACTED]",
             "Status": "Inactive",
             "CreateDate": "2026-05-21T03:00:57+00:00"
         }
@@ -134,7 +134,7 @@ aws iam list-access-keys `
 ```powershell
 aws iam update-access-key `
   --user-name stratus-red-team-backdoor-u-user `
-  --access-key-id AKIASS2WC7DXODCGG3FT `
+  --access-key-id AKIA[REDACTED] `
   --status Inactive
 ```
 
@@ -151,7 +151,7 @@ Expected output:
     "AccessKeyMetadata": [
         {
             "UserName": "stratus-red-team-backdoor-u-user",
-            "AccessKeyId": "AKIASS2WC7DXODCGG3FT",
+            "AccessKeyId": "AKIA[REDACTED]",
             "Status": "Inactive",
             "CreateDate": "2026-05-21T03:00:57+00:00"
         }
@@ -163,7 +163,7 @@ Expected output:
 
 ```powershell
 aws cloudtrail lookup-events `
-  --lookup-attributes AttributeKey=AccessKeyId,AttributeValue=AKIASS2WC7DXODCGG3FT `
+  --lookup-attributes AttributeKey=AccessKeyId,AttributeValue=AKIA[REDACTED] `
   --region us-east-1
 ```
 
