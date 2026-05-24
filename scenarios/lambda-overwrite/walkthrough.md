@@ -111,10 +111,10 @@ aws cloudtrail lookup-events --lookup-attributes AttributeKey=Username,Attribute
 ```json
 {
     "EventName": "AssumeRole",
-    "AccessKeyId": "ASIASS2WC7DXOFRHOMXV",
+    "AccessKeyId": "ASIA[REDACTED]",
     "Resources": [{
         "ResourceType": "AWS::IAM::Role",
-        "ResourceName": "arn:aws:iam::177884821742:role/aws-service-role/config.amazonaws.com/AWSServiceRoleForConfig"
+        "ResourceName": "arn:aws:iam::1778[REDACTED]:role/aws-service-role/config.amazonaws.com/AWSServiceRoleForConfig"
     }]
 }
 ```
@@ -123,7 +123,7 @@ aws cloudtrail lookup-events --lookup-attributes AttributeKey=Username,Attribute
 {
     "EventName": "ListDiscoveredResources",
     "ReadOnly": "true",
-    "AccessKeyId": "ASIASS2WC7DXOFRHOMXV"
+    "AccessKeyId": "ASIA[REDACTED]"
 }
 ```
  
