@@ -75,10 +75,10 @@ Each scenario follows the same structure:
 
 ## Tools
 
-- [Stratus Red Team](https://stratus-red-team.cloud) — adversary emulation for cloud
-- [AWS CLI](https://aws.amazon.com/cli/) — detection and response commands
-- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) — audit logging
-- [AWS GuardDuty](https://aws.amazon.com/guardduty/) — threat detection
+- [Stratus Red Team](https://stratus-red-team.cloud) adversary emulation for cloud
+- [AWS CLI](https://aws.amazon.com/cli/) detection and response commands
+- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) audit logging
+- [AWS GuardDuty](https://aws.amazon.com/guardduty/) threat detection
 
 ---
 
